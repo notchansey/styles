@@ -24,7 +24,9 @@
     border-bottom: 1px solid #70869e !important;
   }
 
-  h3, .commit { background: transparent !important;}
+  h3, .commit, .meta { background: transparent !important;}
+
+  .meta-divider { background: #555 !important; }
 
   .octicon-logo-github:hover, .header-nav-link:hover {
     transition: ease all .2s;
@@ -72,6 +74,13 @@
     background: #B26B6E !important;
   }
 
+  .participation {
+    background: #1b1b1b !important;
+    color: #888 !important;
+  }
+
+  .final-path { color: #888 !important; }
+
   /* text box styling */
   .mini-repo-list-item, .markdown-body, .entry-content, .files, .commit-meta, .sunken-menu {
     background: #1b1b1b !important;
@@ -112,18 +121,26 @@
     border: none !important;
   }
 
-  .blankslate, #contributions-calendar {
+  .blankslate, #contributions-calendar, .ace-github-light, .ace_gutter {
     background: #1b1b1b !important;
     color: #999 !important;
   }
 
-  .select-menu-list, .js-navigation-item, .select-menu-header, .select-menu-footer {
+  .ace_gutter-active-line, .ace_text-input {
+    background: #666 !important;
+    color: #999 !important;
+  }
+
+  /* drop down menus */
+
+  .select-menu-list, .js-navigation-item, .select-menu-header, .select-menu-footer, .select-menu-filters {
     color: #fff !important;
     background: #1b1b1b !important;
   }
 
   .js-navigation-item:hover {
     background: #70869e !important;
+    color: #fff !important;
   }
 
   .button.select-menu-button {
