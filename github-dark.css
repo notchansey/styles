@@ -1,0 +1,183 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+  * {
+    text-shadow: none !important;
+    border-width: 0px !important;
+    border-radius: 0px 0px 0px 0px !important;
+  }
+
+  body, .site-container {
+    background: #111111 !important;
+  }
+
+  .site-footer {
+    border-top: none !important;
+  }
+
+  .auth-form-body {
+    box-shadow: 0px 0px 1px 1px rgba(25,25,25,.04) !important;
+  }
+
+  .header, .pagehead {
+    background: #0b0b0b !important;
+    border-bottom: 1px solid #70869e !important;
+  }
+
+  h3, .commit { background: transparent !important;}
+
+  .octicon-logo-github:hover, .header-nav-link:hover {
+    transition: ease all .2s;
+    color: #70869e !important;
+  }
+
+  .filter-bar {
+    background: transparent !important;
+  }
+
+  /* button styling */
+  .select-menu-button {
+    background: #70869e !important;
+    border: none !important;
+    color: #fff !important;
+  }
+
+  .button, .button.primary, .subnav-item.selected, .minibutton, a.tabnav-tab.selected {
+    background: #70869e !important;
+    color: #fff !important;
+    border: none !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+  }
+  .social-count {
+    background: #222933!important;
+    color: #fff !important;
+  }
+
+  /* text styling */
+  a {
+    color: #777 !important;
+  }
+
+  a.menu-item {
+    background: #1b1b1b !important;
+    text-shadow: none !important;
+  }
+
+  .menu-item.selected {
+    border-left: 2px solid #B26B6E !important;
+  }
+  .menu-item.selected:before {
+    border-radius: 0px 0px 0px 0px !important;
+    background: #B26B6E !important;
+  }
+
+  /* text box styling */
+  .mini-repo-list-item, .markdown-body, .entry-content, .files, .commit-meta, .sunken-menu {
+    background: #1b1b1b !important;
+    color: #fff !important;
+    border: none !important;
+
+  }
+
+  .sunken-menu:before, .sunken-menu:after {
+    box-shadow: 0px 0px 0px 0px #000 !important;
+    background-image: none !important;
+  }
+
+  .sunken-menu {
+    box-shadow: 0px 0px 0px 0px #000 !important;
+  }
+
+  .sunken-menu-item.selected {
+    background: #455D7F !important;
+    color: #fff !important;
+    border-radius: none !important;
+  }
+
+  .sunken-menu-item.selected:after {
+    background: #B26B6E !important;
+    border-radius: 0px 0px 0px 0px !important;
+  }
+
+  .sunken-menu-separator {
+    display: none !important;
+  }
+
+  .file-wrap {
+    border-width: 0px;
+  }
+
+  .commit-tease, table.files td {
+    border: none !important;
+  }
+
+  .blankslate, #contributions-calendar {
+    background: #1b1b1b !important;
+    color: #999 !important;
+  }
+
+  .select-menu-list, .js-navigation-item, .select-menu-header, .select-menu-footer {
+    color: #fff !important;
+    background: #1b1b1b !important;
+  }
+
+  .js-navigation-item:hover {
+    background: #70869e !important;
+  }
+
+  .button.select-menu-button {
+    margin-right: 4px !important;
+  }
+
+  .select-menu-list-text {
+    color: #fff !important;
+  }
+
+  #global-zeroclipboard-html-bridge {
+    margin-left: 16px !important;
+  }
+
+  .pagination > a, .pagination > span {
+    background: #1b1b1b !important;
+    color: #fff !important;
+  }
+
+  .pagination > a:hover {
+    transition: ease all .2s;
+    background: #222933 !important;
+    color: #fff !important;
+  }
+
+  .pagination .disabled {
+    color: #999 !important;
+  }
+
+  .pagination .current {
+    background: #70869e !important;
+  }
+
+  .js-site-search-field, input[type="text"] {
+    border: 1px solid #333 !important;
+    background: transparent !important;
+    color: #999 !important;
+  }
+
+.form-control.focus, .form-control:focus, input.focus[type="text"], input[type="text"]:focus, .focused .drag-and-drop, input.focus[type="password"], input[type="password"]:focus, input.focus[type="email"], input[type="email"]:focus, input.focus[type="number"], input[type="number"]:focus, input.focus[type="tel"], input[type="tel"]:focus, input.focus[type="url"], input[type="url"]:focus, textarea.focus, textarea:focus {
+    box-shadow: none !important;
+}
+
+  .scope-badge {
+    background: #222933 !important;
+    color: #fff !important;
+  }
+
+  .filter-repos {
+    background: #1b1b1b !important;
+  }
+
+  .counter {
+    background: transparent !important;
+  }
+
+}
